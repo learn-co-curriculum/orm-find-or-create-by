@@ -30,7 +30,7 @@ DB[:conn].execute("SELECT * FROM songs WHERE name = "Hello")
 # => [[1, "Hello", "25"], [2, "Hello", "25"]]
 ```
 
-We have two records that contain the same information! How can we avoid this? When we try to save a new `Song` instance, we should first check to see the object we are trying to save already has an equivalent record in the database, if it does, we should simply update it, otherwise, we can go ahead and save it. 
+We have two records that contain the same information! How can we avoid this? When we try to save a new `Song` instance, we should first check to see the object we are trying to save already has an equivalent record in the database. If it does, we should simply update it. Otherwise, we can go ahead and save it. 
 
 ## Saving vs. Updating
 
@@ -173,3 +173,5 @@ Although we called `#find_or_create_by` twice *with the same data* (gasp!), we o
 * [Video Review- Codealong: Building a Room Scraper and ORM](https://www.youtube.com/watch?v=1eIgKGukBlg) 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/orm-find-or-create-by' title='ORM: Preventing Record Duplication'>ORM: Preventing Record Duplication</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/orm-find-or-create-by'>Preventing Record Duplication</a> on Learn.co and start learning to code for free.</p>
