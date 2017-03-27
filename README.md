@@ -166,6 +166,8 @@ Although we called `#find_or_create_by` twice *with the same data* (gasp!), we o
 
 ## Bonus Section- Video Reviews
 
+**Note** These videos are included in the curriculum at the end of the ORM course, so you may not want to watch them yet. 
+
 * [Video Review- ORMS and SQL Joins](https://www.youtube.com/watch?v=mZROu5oSWfI)
 
 * [Video Review- Building a Metaprogrammed Abstract ORM](https://www.youtube.com/watch?v=hts7TjpPw-8) 
@@ -173,3 +175,5 @@ Although we called `#find_or_create_by` twice *with the same data* (gasp!), we o
 * [Video Review- Codealong: Building a Room Scraper and ORM](https://www.youtube.com/watch?v=1eIgKGukBlg) 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/orm-find-or-create-by' title='ORM: Preventing Record Duplication'>ORM: Preventing Record Duplication</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/orm-find-or-create-by'>Preventing Record Duplication</a> on Learn.co and start learning to code for free.</p>
